@@ -1,4 +1,4 @@
-const fs = require("fs-extra");
+  const fs = require("fs-extra");
 const { utils } = global;
 
 module.exports = {
@@ -110,7 +110,7 @@ module.exports = {
         + `║ 💬 Chatbox : ${threadPrefix}\n`
         + `║ ➤ ${threadPrefix}help to see all available cmds 🥵\n`
         + "╚═══════════════╝",
-        attachment: await utils.getStreamFromURL("https://files.catbox.moe/ha6hv4.mp4")
+        attachment: await utils.getStreamFromURL("https://files.catbox.moe/39u79f.jpg")
       });
     }
   }
